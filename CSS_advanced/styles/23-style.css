@@ -26,7 +26,7 @@
     width: 50%;
 }
 
-/* dark theme */
+/* Dark theme */
 [data-section-theme="dark"] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
@@ -42,6 +42,6 @@
     display: block;
 }
 
-.social-link {
+.social-link > svg {
     fill: var(--text-color);
-}
+} 
